@@ -1,0 +1,23 @@
+.container {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color:#fff;
+  h2 {
+    color:orange;
+    font-size: 42px;
+  }
+  p {
+    position: relative;
+    right: 20px;
+    bottom: 20px;
+    color: #fff;
+  }
+}
